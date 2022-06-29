@@ -1,0 +1,25 @@
+git config --list
+
+git config --global --unset user.nickname
+git config --global --unset user.email
+
+git config --global user.nickname "nome do nick"
+git config --global user.email "email"
+
+git remote -v
+
+git remote add origin mais o link_do_repositório
+origin é uma alias para não ficar digitando a url
+
+git push origin master
+
+Inicializa um repositório
+git init
+
+
+If you have a local clone, you can update it by running the following commands.
+
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
